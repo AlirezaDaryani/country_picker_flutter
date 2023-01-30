@@ -1,6 +1,5 @@
-[![Pub](https://img.shields.io/pub/v/country_code_picker.svg)](https://pub.dartlang.org/packages/country_code_picker)
 
-# country_code_picker
+# country_picker_flutter
 
 A flutter package for showing a country code selector.
 
@@ -166,4 +165,5 @@ Here is a list of properties available to customize your widget:
 
 ## Contributions
 
-Contributions of any kind are more than welcome! Feel free to fork and improve country_code_picker in any way you want, make a pull request, or open an issue.
+Contributions of any kind are more than welcome! Feel free to fork and improve
+country_picker_flutter in any way you want, make a pull request, or open an issue.

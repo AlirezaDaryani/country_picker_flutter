@@ -1,5 +1,5 @@
-import 'package:country_code_picker/country_code.dart';
-import 'package:country_code_picker/country_localizations.dart';
+import 'package:country_picker_flutter/country_code.dart';
+import 'package:country_picker_flutter/country_localizations.dart';
 import 'package:flutter/material.dart';
 
 /// selection dialog used for selection of the country code
@@ -151,7 +151,7 @@ class _SelectionDialogState extends State<SelectionDialog> {
                     widget.flagDecoration == null ? Clip.none : Clip.hardEdge,
                 child: Image.asset(
                   e.flagUri!,
-                  package: 'country_code_picker',
+                  package: 'country_picker_flutter',
                   width: widget.flagWidth,
                 ),
               ),

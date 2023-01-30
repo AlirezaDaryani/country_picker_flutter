@@ -22,7 +22,7 @@ class CountryLocalizations {
 
   Future<bool> load() async {
     String jsonString = await rootBundle.loadString(
-        'packages/country_code_picker/i18n/${locale.languageCode}.json');
+        'packages/country_picker_flutter/i18n/${locale.languageCode}.json');
     Map<String, dynamic> jsonMap = json.decode(jsonString);
 
     _localizedStrings = jsonMap.map((key, value) {
